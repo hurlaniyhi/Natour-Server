@@ -1382,7 +1382,7 @@ body {
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 10;
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (max-width: 56.25em) {
     .navigation__background {
       top: 4.5rem;
@@ -1394,13 +1394,12 @@ body {
 
 .navigation__nav {
   height: 100vh;
-  width: 0;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 50;
   opacity: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 .navigation__list {
   position: absolute;
@@ -1423,7 +1422,7 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 50%, transparent 50%, #fff 50%);
   background-size: 260%;
-  transition: all .4s; }
+  transition: all .3s; }
   .navigation__link:link span, .navigation__link:visited span {
     margin-right: 1.5rem;
     display: inline-block; }
